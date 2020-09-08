@@ -1,5 +1,4 @@
-const createMongoClient = require('../shared/mongoClient');
-
+const createMongoClient = require('../shared/mongoClient')
 
 module.exports = async function (context, req) {
     const product = req.body;
